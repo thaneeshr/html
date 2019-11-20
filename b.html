@@ -1,0 +1,175 @@
+
+<! DOCTYPE html>           <!-- web browsers detect which type of document is it-->
+
+<html>                                           <!-- root of the web page-->
+
+<head>                  <!-- Description of the web page content or internal css -->
+
+<title> POOJITH VARDHAN </title>                                                     <!-- title of the web page -->
+
+</head>                                                         <!-- head close tag -->
+
+<body bgcolor= yellow>    <!-- to set a background color for complete web page -->
+
+<h1> HELLO WORLD </h1>   <!-- Headers to display content in different sizes -->
+
+<p> HI I AM <q> POOJITH VARDHAN </q>     <!-- Puts quotations for the required content -->
+
+<br> 
+<br>                                           <!-- break the line -->
+
+STUDYING ENGINEERING IN KLEF  </p>    
+                                                   <!-- Paragraph -->
+
+<blockquote>                                             <!-- to display content like a block -->
+
+Swecha is a non-profit organization formerly called as Free Software Foundation Andhra Pradesh (or FSF-AP in short) later changed name to Swecha which is also the first Telugu Operating System released in year 2005, Swecha is a part of Free Software Movement of India (FSMI).
+
+</blockquote>
+
+
+<strong>An Unordered HTML List</strong>              <!-- to  display content in bold -->
+
+<ul>                                                          <!-- ul-unordered list -->
+  <li>Suresh</li>                                                        <!-- li-list item -->
+  <li>Ramesh</li>
+  <li>Mahesh</li>
+</ul>  
+
+<b>An Ordered HTML List</b>                                          <!-- to display content in bold -->
+
+<ol>                                                            <!-- ol-ordered list -->
+  <li>Suresh</li>  
+  <li>Ramesh</li>
+  <li>Mahesh</li>
+</ol> 
+
+<i>A</i> 
+<em>Table</em>
+<br><br>                                                 <!-- "i" and "em" to display content in italic -->
+
+
+<table border=2px style="width:50%"> <!-- table occupies only 50% of web page width with border 2px -->
+
+ <tr>                                                 <!-- tr-table row -->
+    <th>Name</th>                                                <!-- th-table header -->
+    <th>Place</th>                              <!-- headers are default display at center and bold -->
+    <th>Age</th>
+  </tr>
+  
+<tr>                                                                         <!-- first row -->
+    <td>Poojith</td>                           <!-- td-table data-->
+    <td>Guntur</td>
+    <td>19</td>
+ </tr>
+  
+<tr>                                        <!--second row -->
+    <td>Vishnu</td>                                             <!-- <tr> to </tr> one row -->
+    <td>Vijayawada</td>
+    <td>20</td>
+  </tr>
+  
+<tr>                                                                  <!-- third row -->
+    <td>Amar Sai</td>
+    <td>Narasaraopet</td>
+    <td>22</td>
+ </tr>
+
+</table>                                                         <!-- table close tag -->
+<br><br>
+
+<p align="center"> AUGUST 15                                     <!-- aligns paragraph in center -->
+
+<sup>th</sup>                                            <!-- superscript -->
+ IS 
+
+<q>INDEPENDENCE DAY</q>  </p>                         <!-- will insert quotes -->
+
+
+<p align="center"> water is represented as H<sub>2</sub>O  </p>  <!-- subscript -->
+
+<br><br>
+
+<center>                                                    <!-- to align content in center of page-->
+
+<img src="download.jpg" >                                <!-- img tag to insert image in the webpage -->
+</center>
+<br><br>
+
+<marquee> WELCOME </marquee>                  <!-- to generate content which scrolls -->
+
+
+<h1> FORM ELEMENTS </h1>
+
+<form>
+  <h1>Textbox</h1>                                 <!-- creates a single line box to write -->
+  <input name="firstname" type="text">
+  <br>
+
+ <h1>options</h1>
+  <select name="branches">                   <!-- a scroll block where we can select only one -->
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="CIVIL">CIVIL</option>
+</select>
+<br>
+
+<h1>textarea</h1>                             <!-- multiple lines writing block -->
+<textarea name="message" rows="5" cols="10"></textarea>
+<br>
+
+
+<h1>radio </h1>        <!-- radio button we can select only one -->
+  <input type="radio" name="gender" value="male" checked> Male  
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+  
+
+<h1>checkbox</h1>      <!-- checkboxes we can select multiple items -->
+  <input type="checkbox" name="good" value="good"> GOOD
+  <input type="checkbox" name="better" value="better"> BETTER
+  <input type="checkbox" name="best" value="best" checked> BEST
+<br><br>
+
+  <input type="button" onclick="alert('Hello World!')" value="Click Me!">  
+                                        <!-- will insert a button alert is to generate a pop up screen -->
+
+  <br><br>  
+
+  <input type="submit">               <!-- which displays a submit button -->
+
+<br><br>
+
+Select your favorite color:       
+  <input type="color" name="favcolor" value="#ff0000"> <!-- we can select our required color -->
+       
+<!-- type="color" is not supported in Internet Explorer 11 and earlier versions or Safari 9.1 and earlier versions -->
+
+<br><br>
+
+Birthday:
+  <input type="date" name="bday">                   <!-- will display calender and selection -->
+                  <!-- type="date" is not supported in Safari or Internet Explorer 11 and earlier versions. -->
+
+<br><br>
+
+ E-mail:
+  <input type="email" name="email">                     <!-- it supports a valid mail id only -->                                                                                            <!-- type="email" is not supported in IE9 and earlier. -->
+
+<br><br>
+
+ Select a file: <input type="file" name="myFile">
+                                                                                         <!-- we can select a file from local system -->
+
+<br><br>   
+
+Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5">    
+                                                                                                       <!-- only for valid number range -->
+
+
+
+</form>         <!-- form close -->
+</body>         <!-- end of all the display content of web page -->
+</html>         <!-- end of html file -->
